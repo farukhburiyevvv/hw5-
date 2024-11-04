@@ -10,8 +10,11 @@ int main()
     int arr1[n];
     int arr2[n];
     for(int i=0;i<n;i++){
-        arr1[i] = rand()%10;
-        arr2[i] = rand()%10;
+        cout<<i+1<<"-"<<"num = ";
+        cin>>arr[i];
+        cout<<endl;
+       }
+       for(int i=0;i<n;i++){
         sum+=arr1[i]*arr2[i];
         cout<<arr1[i]<<"   "<<arr2[i]<<endl;
     }
