@@ -1,4 +1,5 @@
 
+
 #include <iostream>
 using namespace std;
 #include <bits/stdc++.h>
@@ -8,7 +9,7 @@ int main()
 {
     string s,big,small;
     int b,sm;
-    getline(cin,s);
+    cin>>s;
     cout<<endl;
     
     for(int i=0;i<s.size();i++){
