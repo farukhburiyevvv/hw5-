@@ -23,8 +23,8 @@ int main()
         }
          
     }
-    cout<<b<<big<<endl;
-    cout<<sm<<small;
+    cout<<b<<big<<" "<<endl;
+    cout<<sm<<small<<" ";
     
        
     
